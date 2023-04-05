@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(11, 28, 40);
+}
+
+.clock-container {
+  margin: auto;
+  margin-top: 5rem;
+   background: url(./images/h_prev_ui.png) no-repeat;
+    height: 30rem;
+    width: 30rem;
+    position: relative;
+    background-size: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6, 0, 0, );
+     
+
+    border-radius: 50%;
+    background-color: rgb(207, 218, 228);
+   
+ 
+    border: 2rem solid rgb(102, 102, 154);
+   
+}
+
+.hour, .minutes, .seconds {
+    background-color: black;
+    border-radius: 5px;
+    transform-origin: bottom;
+    position: absolute;
+   
+}
+
+ .hour {
+    width: .5rem;
+    height: 5rem;
+    top: 9rem;
+    left: 12.7rem;
+} 
+
+ .minutes {
+    width: .4rem;
+    height: 7rem;
+    top: 7rem;
+    left: 12.7rem;
+ }
+
+.seconds {
+    width: .2rem;
+    height: 7rem;
+    top: 7rem;
+    left: 12.8rem;
+}
+
